@@ -38,7 +38,7 @@ En esta etapa es necesaria la creación del principal punto de entrada de la apl
 
 Para esto se puede utilizar la siguiente propuesta de diseño:
 
-![ui](images/ui.png)
+![ui](Images/ui.png)
 
 Donde se tienen los siguientes componentes:
 
@@ -372,15 +372,15 @@ private async void btnRun_Click(object sender, EventArgs e)
 
 # Resultados finales
 
-![Alt Text](./images/run-example.gif)
+![Alt Text](./Images/run-example.gif)
 
 En este caso se observa una gran diferencia entre el método paralelo y el secuecial, siendo el primero mucho más rápido. Esto es por a pesar de que el secuencial hace uso de palabras clave del lenguaje como async o await esto no es realmente paralelismo, lo que esto significa es que la ejecución de este código se hará sin bloquear el thread principal, el cual es el encargado de la parte de renderizado. En el método secuencial las peticiones son ejecutadas de esta manera sin bloquear el thread principal gracias a async y await.
 
-![ui](images/secuential.png)
+![ui](Images/secuential.png)
 
 Mientras que en la versión paralela se asemeja más a esta imagen.
 
-![ui](images/parallel.png)
+![ui](Images/parallel.png)
 
 # Recomendaciones
 
