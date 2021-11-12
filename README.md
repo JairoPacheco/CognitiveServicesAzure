@@ -34,7 +34,7 @@ Una vez creado el proyecto es necesario instalar los siguientes paquetes con NuG
 
 ## Creación de UI
 
-En esta etapa es necesaria la creación del principal punto de entrada de la apliación. Para esto se requiere de una UI que permita al usuario cargar un video y visualizar los resultados del procesamiento mediante dos gráficos, uno que permita ver el porcentaje de escencas de escenas de adultos y otro que permita ver el procentaje de hombres y mujeres, además de dos labels en los que se pueda visualizar la duración de los procesos.
+En esta etapa es necesaria la creación del principal punto de entrada de la aplicación. Para esto se requiere de una UI que permita al usuario cargar un video y visualizar los resultados del procesamiento mediante dos gráficos, uno que permita ver el porcentaje de escenas de adultos y otro que permita ver el procentaje de hombres y mujeres, además de dos labels en los que se pueda visualizar la duración de los procesos.
 
 Para esto se puede utilizar la siguiente propuesta de diseño:
 
