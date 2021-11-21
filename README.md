@@ -386,3 +386,14 @@ Mientras que en la versión paralela se asemeja más a esta imagen.
 
 * Se puede mejorar el código para que no supere los límites de Azure, para esto cada vez que se ejecuten más de 20 transacciones en menos de un minuto se puede modificar el código para haga una espera obligatoria de un minuto antes de continuar la ejecución.
 * En el método paralelo se recomienda que si son muchas imágenes en lugar de ejecutar todas la peticiones de golpe es mejor ejecutar las peticiones por batches o grupos n cantidad, esto para evitar sobrecarga por la creación de muchos threads. Tal principio se demuestra mejor en este ejemplo: https://www.michalbialecki.com/en/2018/04/19/how-to-send-many-requests-in-parallel-in-asp-net-core/
+
+## Integrantes:
+
+* Jairo Pacheco Campos [GitHub](https://github.com/JairoPacheco), [LinkedIn](https://www.linkedin.com/in/jairo-pacheco-campos-79089b140/)
+* Francisco Soto Quesada [GitHub](https://github.com/franrsq),  [LinkedIn](https://www.linkedin.com/in/francisco-soto-quesada/)
+* Sebastián Rojas Vargas [GitHub](https://github.com/SebastianRV26),  [LinkedIn](https://www.linkedin.com/in/sebastian-rojas-vargas/)
+
+Curso: Principios de Sistemas Operativos. 
+II Semestre 2021. 
+
+Profesor: Jorge Alfaro Velazco. [GitHub](https://github.com/jorge-alfaro-velasco),  [LinkedIn](https://www.linkedin.com/in/jorge-alfaro-velasco/)
